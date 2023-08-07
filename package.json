@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
